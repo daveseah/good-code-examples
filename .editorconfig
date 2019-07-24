@@ -1,0 +1,22 @@
+# EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs
+
+# Make sure your editor has a supported plugin that will
+# automatically set according to this file
+# http://editorconfig.org/#download
+
+# stop searching for editorconfig in this file
+root = true
+
+# settings for our default files
+[*.{js,jsx,txt,json,md,html}]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# trailing whitespace means something in markdown
+[*.md]
+trim_trailing_whitespace = false

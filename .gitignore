@@ -1,0 +1,57 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+
+# Parcel
+.cache
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Ignore Sublime Text saved projects/workspaces 
+# *.sublime-workspace
+*.sublime-project
+
+# Ignore binary files
+*.zip
+*.gz
+
+# Numerous always-ignore extensions
+*~
+*.diff
+*.patch
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# System Files
+.DS_Store
+Thumbs.db

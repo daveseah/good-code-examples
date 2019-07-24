@@ -1,0 +1,27 @@
+{
+  "name": "good-code-examples",
+  "version": "0.0.1",
+  "description": "collection of useful code examples",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^1.12.3"
+  },
+  "scripts": {
+    "browser-00": "npx parcel sources/browser-javascript/00-basic/index.html --open"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daveseah/good-code-examples.git"
+  },
+  "author": "Dave.Sri Seah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daveseah/good-code-examples/issues"
+  },
+  "homepage": "https://github.com/daveseah/good-code-examples#readme"
+}
