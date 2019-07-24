@@ -2,13 +2,16 @@
 
 This is a collection of **code examples** for my own reference. Although I am
 starting with Javascript, I'd like it to include good code examples from all
-environments that I have used.  
+environments that I have used over the years.
 
-*This is a work in progress.*
+A secondary goal is to provide a "new programmer" experience similar to the
+instant-on, instant gratification of the Apple II in the early 1980s. The code
+examples should be stand-alone and runnable in a form that is close to
+production ready using modern tools and practice.
 
 Target features: 
 
-* Examples will be self-contained, complete, and 'runnable' as-is.
+* Examples will be self-contained, complete, and 'runnable' as-is. 
 * Examples will use modern language conventions and practices. Each convention will be dated and annotated as well in the source code.
 * Examples will be documented in the source.
 * Examples will be formatted with "tabs as spaces" and a wrapping line width of 80 characters for ease of printing.
@@ -18,7 +21,7 @@ The examples will be implemented as the simplest possible version for maximum co
 
 * highlight **critical control** and **data** scopes in the source code.
 * use a practical **modular approaches** to code organization.
-* provide simple steps for **installing the development tools** so you can run the code immediately.
+* provide the steps for **installing the development tools** so you can run the code immediately.
 
 ## Javascript Examples
 
