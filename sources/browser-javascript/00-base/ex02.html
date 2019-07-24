@@ -35,7 +35,7 @@
         const div = document.getElementById("codeoutput");
         // update the ENTIRE contents of the div on every call
         if (div) div.innerHTML += str + "\n";
-        else console.log("failed to print:", str);
+        else console.log("failed to print:", "'" + str + "'");
       }
 
       // Unlike in Example 1, attempting to update the #codeouput div here works because

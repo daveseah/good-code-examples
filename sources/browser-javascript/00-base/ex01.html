@@ -19,8 +19,8 @@
       function printToDiv(str) {
         const div = document.getElementById("codeoutput");
         // update the ENTIRE contents of the div on every call
-        if (div) div.innerHTML += "str" + "\n";
-        else console.log("failed to print:", str);
+        if (div) div.innerHTML += str + "\n";
+        else console.log("failed to print:", "'" + str + "'");
       }
 
       // Attempting to update the #codeouput div immediately will fail, since
