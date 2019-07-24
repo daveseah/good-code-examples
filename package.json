@@ -8,12 +8,9 @@
     "parcel": "^1.12.3"
   },
   "scripts": {
-    "browser-00": "npx parcel sources/browser-javascript/00-basic/index.html --open"
+    "js-base": "npx parcel sources/browser-javascript/00-base/ex01.html --open",
+    "js-base-body": "npx parcel sources/browser-javascript/00-base/ex02.html --open"
   },
-  "os": [
-    "darwin",
-    "linux"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/daveseah/good-code-examples.git"

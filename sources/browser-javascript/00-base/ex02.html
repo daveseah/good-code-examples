@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Javascript in Browser - Example 2</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body id="home">
+    <h1>Javascript in Browser</h1>
+    <h2>Example 2 - Script in Body</h2>
+    <p>Hello World!</p>
+
+    <h2>Javascript Output</h2>
+    <div class="container">
+      <div id="codeoutput"></div>
+    </div>
+
+    <hr />
+    <a href="https://github.com/daveseah/good-code-examples/tree/master/sources/browser-javascript/00-base">repo</a>
+    <script>
+      /*/
+      Scripts in the body run after all preceding elements have been loaded
+      but the page layout may not be finalized. By loading the script late in the body,
+      some content on the page can be displayed without waiting for a large file
+      to finish loading.
+      /*/
+    </script>
+    <script>
+      // define a function to collect text for printing to the javascript
+      // console and a div in the document
+      function printToDiv(str) {
+        const div = document.getElementById("codeoutput");
+        // update the ENTIRE contents of the div on every call
+        if (div) div.innerHTML += str + "\n";
+        else console.log("failed to print:", str);
+      }
+
+      // Unlike in Example 1, attempting to update the #codeouput div here works because
+      // div#output has been defined before this script ran. .
+      printToDiv("script in body script called printToDiv()");
+
+      // To detect when all the elements on the page are completely rendered and
+      // ready to manipulate with javascript, listen for the 'DOMContentLoaded'
+      // window event. In ye olden dayes before DOM events were fully
+      // standardized, jQuery's venerable $(document.ready(function(){...})
+      // function would have used.
+      window.addEventListener("DOMContentLoaded", function() {
+        // NOW we can confidently assume that the DOM is completely loaded
+        // and run any code that depends on that
+        printToDiv("script in DOMContentLoaded event listener called printToDiv()");
+      });
+    </script>
+  </body>
+</html>

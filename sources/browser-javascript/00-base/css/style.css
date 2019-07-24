@@ -6,11 +6,11 @@ body {
   padding: 0.5em 1em;
 }
 .container {
-  font-family: monospace;
-  white-space: pre;
-  background-color: #f0f0f0;
   padding: 10px;
+  background-color: #f0f0f0;
 }
-.code {
+#codeoutput {
+  font-family: monospace;
   width: 100%;
+  white-space: pre;
 }
