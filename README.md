@@ -26,12 +26,16 @@ The examples will be implemented as the simplest possible version for maximum co
 
 ### Installation
 
-You will need to install NodeJS and Git (insert installation link).
+Prerequisites (insert links later)
+* Install NodeJS and Git (Windows users: also install Git Bash). 
+
+Open a console window (Windows user: open a Git Bash shell) then type
 ```
 git clone https://github.com/daveseah/good-code-examples.git
 cd good-code-examples
 npm ci
 ```
+You only need to do this once.
 
 ## Running
 
@@ -39,7 +43,7 @@ There is currently one example in `sources/browser-javascript/00-basic`. To run 
 ```
 npm run browser-00
 ```
-This will use [Parcel](https://parceljs.org/) to compile and launch the example in your browser. 
+This will use [Parcel](https://parceljs.org/) to compile and launch the example in your browser. This should work on Mac, Linux, and Windows.
 
 ## Editing
 
