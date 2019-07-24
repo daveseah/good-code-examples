@@ -39,11 +39,7 @@ You only need to do this once.
 
 ## Running
 
-There is currently one example in `sources/browser-javascript/00-basic`. To run it and launch a browser window:
-```
-npm run browser-00
-```
-This will use [Parcel](https://parceljs.org/) to compile and launch the example in your browser. This should work on Mac, Linux, and Windows.
+See the README.md file in each folder in the `sources` folder.
 
 ## Editing
 
