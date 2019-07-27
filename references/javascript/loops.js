@@ -105,7 +105,7 @@ for (var i = 0; i < namesLength; i++) {
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - /*/
 
 /// EXAMPLE 7 /////////////////////////////////////////////////////////////////
-/// iterating over an array
+/// iterating over an array with fancy conditions
 /// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 var namesArray = ["Alice", "Bob", "Ben", "Adam", "Fred"];
 var beginsWithA = [];
@@ -131,7 +131,8 @@ for (var i = 0; i < namesArray.length; i++) {
 /*/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     EXAMPLE 7 QUESTIONS
 
-    (13) What is the contents of the beginsWithA array after the program runs?
-    (14) What is the contents of beginsWithC array after the program runs?
-    (15) How would you handle both upper and lowercase characters?
+    (13) What is the output of the program? How many lines are printed?
+    (14) What is the contents of the beginsWithA array after the program runs?
+    (15) What is the contents of beginsWithC array after the program runs?
+    (16) How would you handle both upper and lowercase characters?
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - /*/
