@@ -176,6 +176,7 @@ function getPreamble(nameOfAsshole) {
   const line2 = "I am happy to present this proposal to " + nameOfAsshole;
   const line3 = "for performing the work of COOKING A STEAK for the";
   const line4 = "tidy sum of $20.00 payable on receipt of meal";
+  // note: wrapping return value with ( ) is optional syntax
   return line1 + line2 + line3 + line4;
 } // getPreamble
 
@@ -222,6 +223,7 @@ letters.push(getPreamble("Penelope Pantbiter"));
 /// EXAMPLE 6 /////////////////////////////////////////////////////////////////
 /// using returned values again, yet again, last time I promise
 /// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 function getPreamble(nameOfAsshole) {
   const line1 = "Dear Sir or Madam:";
   const line2 = "I am happy to present this proposal to " + nameOfAsshole;
