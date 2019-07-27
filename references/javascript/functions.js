@@ -1,7 +1,7 @@
 /// FUNCTIONS /////////////////////////////////////////////////////////////////
 /*/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-  There are three concepts to understand about functions:
+  There are four concepts to understand about functions:
 
   concept 1 : You create one using the FUNCTION DECLARATION syntax. Declaring a
               function bundles a bunch of code statements so you can use them
@@ -259,6 +259,7 @@ for (var i = 0; i < letters.length; i++) {
 /// EXAMPLE 7A ////////////////////////////////////////////////////////////////
 /// functions calling functions calling functions
 /// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 function getMeAPenDammit(quantity) {
   var pensToGet;
   var pensArray = [];
@@ -336,7 +337,6 @@ console.log(result);
 /// using predefined functions from example 7A
 /// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// assume that all the functions defined in 7A are available here
 var results = [];
 var result = "nothing yet";
 
@@ -413,6 +413,7 @@ runAlexBossProcess(FREDS_TASKS);
 
 /// EXAMPLE 8 /////////////////////////////////////////////////////////////////
 /// functions as values?!? also introducing JSDOC comment styles
+/// https://jsdoc.app/about-getting-started.html
 /// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 /**
