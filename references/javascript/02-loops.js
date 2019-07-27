@@ -16,10 +16,12 @@
 /// EXAMPLE 1 /////////////////////////////////////////////////////////////////
 /// A "for loop" counter that repeats 3 times, output 0 1 2
 /// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 for (var counter = 0; counter < 3; counter = counter + 1) {
   // statement(s) go here
   console.log(counter); // prints the value of counter
 }
+
 /*/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     EXAMPLE 1 QUESTIONS
 
@@ -32,9 +34,11 @@ for (var counter = 0; counter < 3; counter = counter + 1) {
 /// EXAMPLE 2 /////////////////////////////////////////////////////////////////
 /// a backwards "for loop" counter that repeats 3 times, output 3 2 1
 /// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 for (var counter = 3; counter > 0; counter = counter - 1) {
   console.log(counter); // prints the value of counter
 }
+
 /*/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     EXAMPLE 2 QUESTIONS
 
@@ -45,11 +49,13 @@ for (var counter = 3; counter > 0; counter = counter - 1) {
 /// EXAMPLE 3 /////////////////////////////////////////////////////////////////
 /// nested loops
 /// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 for (var i = 1; i <= 3; i++) {
   for (var j = 3; j >= 0; j--) {
     console.log("loop " + i + "," + j);
   } // for j
 } // for i
+
 /*/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     EXAMPLE 3 QUESTIONS
 
@@ -62,11 +68,13 @@ for (var i = 1; i <= 3; i++) {
 /// EXAMPLE 4 /////////////////////////////////////////////////////////////////
 /// variable length counters
 /// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 var start = 0;
 var end = 3;
 for (var i = start; i < end; i++) {
   console.log(start, end, i);
 }
+
 /*/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     EXAMPLE 4 QUESTIONS
 
@@ -108,6 +116,7 @@ for (var i = 0; i < namesLength; i++) {
 /// advanced example iterating over an array with fancy conditions
 /// see the conditionals.js file to read about conditions
 /// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 var namesArray = ["Alice", "Bob", "Ben", "Adam", "Fred"];
 var beginsWithA = [];
 var beginsWithB = [];
@@ -129,6 +138,7 @@ for (var i = 0; i < namesArray.length; i++) {
       console.log("Name " + name + " does not begin with A or B");
   } // switch (firstLetter) ...
 } // for i ...
+
 /*/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     EXAMPLE 7 QUESTIONS
 

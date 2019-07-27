@@ -33,10 +33,12 @@
 /// EXAMPLE 1 /////////////////////////////////////////////////////////////////
 /// storing information about food items using simple variables
 /// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 var applePrice = 1.99;
 var appleDesc = "This delicious apple is from Washington State";
 var cakePrice = 12.99;
 var cakeDesc = "This cake is baked by actual elven princesses";
+
 /*/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     EXAMPLE 1 QUESTIONS
 
@@ -47,6 +49,7 @@ var cakeDesc = "This cake is baked by actual elven princesses";
 /// EXAMPLE 2 /////////////////////////////////////////////////////////////////
 /// storing prices of food items using objects
 /// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 var apple = {
   price: 1.99,
   desc: "This delicious apple is from Washington State"
@@ -55,6 +58,7 @@ var cake = {
   price: 12.99,
   desc: "This cake is baked by actual elven princesses"
 };
+
 /*/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     EXAMPLE 2 QUESTIONS
 
@@ -68,6 +72,7 @@ var cake = {
 /// EXAMPLE 3 /////////////////////////////////////////////////////////////////
 /// accessing properties of objects
 /// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 var apple = {
   price: 1.99,
   desc: "This delicious apple is from Washington State"
@@ -79,6 +84,7 @@ var cake = {
 console.log("apple price:", apple.price, "apple desc:", apple.desc);
 console.log("cake price:", cake.price, "cake desc:", cake.desc);
 console.log("total price:", apple.price + cake.price);
+
 /*/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     EXAMPLE 3 QUESTIONS
 
@@ -89,6 +95,7 @@ console.log("total price:", apple.price + cake.price);
 /// EXAMPLE 4 /////////////////////////////////////////////////////////////////
 /// adding properties to an existing object
 /// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 var apple = {
   price: 1.99,
   desc: "This delicious apple is from Washington State"
@@ -96,6 +103,7 @@ var apple = {
 console.log(apple.wtGrams); // prints undefined
 apple.wtGrams = 200; // adds a new property 'wtGrams' with value 200
 console.log(apple.wtGrams); // prints 200
+
 /*/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     EXAMPLE 4 QUESTIONS
 
@@ -108,6 +116,7 @@ console.log(apple.wtGrams); // prints 200
 /// EXAMPLE 5 /////////////////////////////////////////////////////////////////
 /// reading properties from an object
 /// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 var apple = {
   price: 1.99,
   desc: "This delicious apple is from Washington State",
@@ -130,6 +139,7 @@ var apple = {
 console.log(apple.price); // prints 1.99
 console.log(apple.nutrition.sugarGrams); // prints 200
 console.log(apple.suppliers.owner); // javascript error
+
 /*/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     EXAMPLE 5 QUESTIONS
 
@@ -144,6 +154,7 @@ console.log(apple.suppliers.owner); // javascript error
 /// EXAMPLE 6 /////////////////////////////////////////////////////////////////
 /// nested objects
 /// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 var container = {
   name: "big container",
   apple: {
@@ -160,6 +171,7 @@ console.log("cake price", container.cake.price);
 // change the price to be 2x cost of an apple
 container.cake.price = container.apple.price * 2;
 console.log("cake price", container.cake.price);
+
 /*/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     EXAMPLE 6 QUESTIONS
     Q. What is the printed console output of the program?
@@ -169,6 +181,7 @@ console.log("cake price", container.cake.price);
 /// EXAMPLE 7 /////////////////////////////////////////////////////////////////
 /// objects containing arrays
 /// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 var container = {
   id: "shipment1012",
   items: []
@@ -191,6 +204,7 @@ for (var i = 0; i < container.items.length; i++) {
   totalValue = totalValue + item.price;
 }
 console.log("total value of shipment " + totalValue);
+
 /*/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     EXAMPLE 7 QUESTIONS
     Q. What is the printed console output of the program?
