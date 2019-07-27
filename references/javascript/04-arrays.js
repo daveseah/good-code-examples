@@ -87,7 +87,7 @@ for (var i = 0; i < numberOfGuests; i++) {
 console.log("There are", numberOfGuests, "people coming to the wedding");
 
 /*/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-    EXAMPLE 2 NOTED
+    EXAMPLE 2 NOTES
 
     * Going through all the items in an array is called 'iterating over
       the array'.
