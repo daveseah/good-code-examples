@@ -105,7 +105,8 @@ for (var i = 0; i < namesLength; i++) {
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - /*/
 
 /// EXAMPLE 7 /////////////////////////////////////////////////////////////////
-/// iterating over an array with fancy conditions
+/// advanced example iterating over an array with fancy conditions
+/// see the conditionals.js file to read about conditions
 /// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 var namesArray = ["Alice", "Bob", "Ben", "Adam", "Fred"];
 var beginsWithA = [];
