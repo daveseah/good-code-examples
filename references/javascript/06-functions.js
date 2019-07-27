@@ -116,7 +116,7 @@ printPreamble();
     EXAMPLE 1 QUESTIONS
 
     Q. What is the output of this code up to the point that the function is
-       completely declared (at closing bracked // myFunction) but
+       completely declared (at closing bracket // myFunction) but
        BEFORE the function is called?
     Q. What is the output of this code AFTER the function is invoked?
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - /*/
