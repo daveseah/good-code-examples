@@ -4,9 +4,15 @@ Model-View-Controller (aka [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93vie
 
 This example uses a set of source files based on Tania Rascia's [A simple MVC application in plain JavaScript](https://github.com/taniarascia/mvc/) tutorial. I've also modified the project to work with my Parcel build configuration.
 
+Current available examples:
+
+- `js01-mvc` - the as-implemented version of Tania Rascia's source from August 4, 2019.
+
 ## Running
 
 _PREREQUISITE: Make sure to [install](https://github.com/daveseah/good-code-examples/#installation) the build tools._
+
+Use the `npm run <script>` command from the terminal at the repo root. Example:
 
 ```
 cd good-code-examples
