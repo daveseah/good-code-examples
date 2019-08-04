@@ -23,7 +23,7 @@ The examples will be implemented as the simplest possible version for maximum co
 - use a practical **modular approaches** to code organization.
 - provide the steps for **installing the development tools** so you can run the code immediately.
 
-### Installation
+## Installation
 
 This project uses NodeJS, Git, and Visual Studio Code to run Javascript examples from the terminal.
 
@@ -46,6 +46,6 @@ This will install the NodeJS prerequisites. **You only need to do this once** on
 
 Each folder in the `source` directory has a `README.md` file which has instructions on running the examples as well as additional trivia.
 
-## Editingthe Examples
+## Editing the Examples
 
 A Visual Studio Code workspace `code-examples.code-workspace` is included. You can edit the files and save them; if you are running the example via one of the `npm run` scripts, they will be _automatically recompile and update_ in a browser window!
