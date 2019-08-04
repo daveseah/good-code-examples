@@ -1,16 +1,19 @@
 # Javascript in the Browser Examples
 
-This is a set of source files that load Javascript.
+This is a set of source files that load Javascript. Use the `npm run <script>` command to see what they look like, where `<script>` is one of the following:
 
-1. `js-base` - inline js in the `<head>` only
-2. `js-base-body` - inline js at the bottom of the `<body>`
-3. `js-base-file` - load external js (no loader libraries or module support)
-4. `js-base-require` - load external js using AMD module format w/ RequireJS
-5. `js-base-module` - load external js using ECMAscript modules
+- `js00-base` - inline js in the `<head>` only
+- `js00-base-body` - inline js at the bottom of the `<body>`
+
+Future examples:
+
+- `js00-base-file` - load external js (no loader libraries or module support)
+- `js00-base-require` - load external js using AMD module format w/ RequireJS
+- `js00-base-module` - load external js using ECMAscript modules
 
 ## Running
 
-[link to WIKI installation dev tools requirement]
+_PREREQUISITE: complete the installation described on the [main README file][repo]_
 
 ```
 cd good-code-examples
@@ -51,3 +54,4 @@ I've included the approximate year when these features became broadly available 
 [requirejs]: https://requirejs.org/docs/history.html
 [amd]: https://github.com/amdjs/amdjs-api
 [normalized]: http://nicolasgallagher.com/about-normalize-css#normalize-vs-reset
+[repo]: https://github.com/daveseah/good-code-examples/

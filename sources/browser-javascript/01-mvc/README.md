@@ -4,7 +4,7 @@ This is a set of source files based on Tania Rascia's [A simple MVC application 
 
 ## Running
 
-[link to WIKI installation dev tools requirement]
+_PREREQUISITE: complete the installation described on the [main README file][repo]_
 
 ```
 cd good-code-examples
@@ -18,3 +18,4 @@ The [Parcel][parceljs] build tool will transpile, run, then serve the HTML file 
 - At the time of preparing this example, Tania's code uses [class properties](https://github.com/tc39/proposal-class-fields), which are not yet officially part of Javascript. To make this work, [Parcel's Babel config](https://parceljs.org/javascript.html#babel) needs to have the [@babel/plugin-proposal-class-properties](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties) plugin added. This is added to the babel config inside `package.json` (which also has it as a `devDependency`). The documentation for the plugin describes how to install it.
 
 [parceljs]: https://parceljs.org
+[repo]: https://github.com/daveseah/good-code-examples/
