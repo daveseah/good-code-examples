@@ -10,6 +10,9 @@
   "scripts": {
     "js-base": "npx parcel sources/browser-javascript/00-base/ex01.html --open",
     "js-base-body": "npx parcel sources/browser-javascript/00-base/ex02.html --open"
+    "clean": "rm -fr ./dist",
+    "js00-base": "npm run clean && npx parcel sources/browser-javascript/00-base/index-00-base.html --open",
+    "js00-base-body": "npm run clean && npx parcel sources/browser-javascript/00-base/index-00-base-body.html --open",
   },
   "repository": {
     "type": "git",
