@@ -23,12 +23,6 @@ The examples will be implemented as the simplest possible version for maximum co
 - use a practical **modular approaches** to code organization.
 - provide the steps for **installing the development tools** so you can run the code immediately.
 
-## Available Examples
-
-- js00-base - clean HTML5 + inline script in head
-- js00-base-body - clean HTML5 + inline script in body
-- js01-mvc - Tania Rascia's ToDo Simple MVC Example
-
 ### Installation
 
 This project uses NodeJS, Git, and Visual Studio Code to run Javascript examples from the terminal.
@@ -48,10 +42,10 @@ npm ci
 
 This will install the NodeJS prerequisites. **You only need to do this once** on your first clone. Newer version of the repo adds more dependencies; if you see an error complaining about missing node modules after pulling the most recent update, try running the `npm ci` command again.
 
-## Running
+## Running the Examples
 
 Each folder in the `source` directory has a `README.md` file which has instructions on running the examples as well as additional trivia.
 
-## Editing
+## Editingthe Examples
 
 A Visual Studio Code workspace `code-examples.code-workspace` is included. You can edit the files and save them; if you are running the example via one of the `npm run` scripts, they will be _automatically recompile and update_ in a browser window!
