@@ -13,7 +13,7 @@ Future examples:
 
 ## Running
 
-_PREREQUISITE: complete the installation described on the [main README file][repo]_
+_PREREQUISITE: Make sure to [install](https://github.com/daveseah/good-code-examples/#installation) the build tools._
 
 ```
 cd good-code-examples
@@ -54,4 +54,3 @@ I've included the approximate year when these features became broadly available 
 [requirejs]: https://requirejs.org/docs/history.html
 [amd]: https://github.com/amdjs/amdjs-api
 [normalized]: http://nicolasgallagher.com/about-normalize-css#normalize-vs-reset
-[repo]: https://github.com/daveseah/good-code-examples/

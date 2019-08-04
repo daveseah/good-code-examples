@@ -1,10 +1,12 @@
-# SPA MVC
+# Single Page Model-View-Controller Example
 
-This is a set of source files based on Tania Rascia's [A simple MVC application in plain JavaScript](https://github.com/taniarascia/mvc/) tutorial. I've modified the project to work with my Parcel build configuration.
+Model-View-Controller (aka [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)) is one of the important _architectural patterns_ for software that has a graphical user interface.
+
+This example uses a set of source files based on Tania Rascia's [A simple MVC application in plain JavaScript](https://github.com/taniarascia/mvc/) tutorial. I've also modified the project to work with my Parcel build configuration.
 
 ## Running
 
-_PREREQUISITE: complete the installation described on the [main README file][repo]_
+_PREREQUISITE: Make sure to [install](https://github.com/daveseah/good-code-examples/#installation) the build tools._
 
 ```
 cd good-code-examples
@@ -18,4 +20,3 @@ The [Parcel][parceljs] build tool will transpile, run, then serve the HTML file 
 - At the time of preparing this example, Tania's code uses [class properties](https://github.com/tc39/proposal-class-fields), which are not yet officially part of Javascript. To make this work, [Parcel's Babel config](https://parceljs.org/javascript.html#babel) needs to have the [@babel/plugin-proposal-class-properties](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties) plugin added. This is added to the babel config inside `package.json` (which also has it as a `devDependency`). The documentation for the plugin describes how to install it.
 
 [parceljs]: https://parceljs.org
-[repo]: https://github.com/daveseah/good-code-examples/
