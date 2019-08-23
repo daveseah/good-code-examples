@@ -10,45 +10,31 @@ EXAMPLE:
 
 result from *find all in files* using ".Publish(" as the key:
 ```
-vsls:/boilerplate/src/app-web/boot/SystemInit.jsx
+/Users/sri/Dev/meme-all/boilerplate/src/app-web/boot/SystemInit.jsx
   44,10:       UR.Publish('WINDOW:SIZE');
   99,8:     UR.Publish('WINDOW:SIZE');
 
-vsls:/boilerplate/src/app-web/components/EvidenceLink.jsx
-  141,8:     UR.Publish('SHOW_EVIDENCE_LINK', { evId: newEvLink.evId, rsrcId: newEvLink.rsrcId });
-  214,8:     UR.Publish('SELECTION_CHANGED');
-  222,10:       UR.Publish('REQUEST_SELECT_EVLINK_SOURCE', { evId, rsrcId });
+/Users/sri/Dev/meme-all/boilerplate/src/app-web/components/EvidenceLink.jsx
+  206,8:     UR.Publish('SELECTION_CHANGED');
+  214,10:       UR.Publish('REQUEST_SELECT_EVLINK_SOURCE', { evId, rsrcId });
 
-vsls:/boilerplate/src/app-web/components/EvidenceLinkOrig.jsx
-  183,8:     UR.Publish('SELECTION_CHANGED');
-  191,10:       UR.Publish('REQUEST_SELECT_EVLINK_SOURCE', { evId, rsrcId });
-  258,8:     UR.Publish('STICKY:OPEN', {
-
-vsls:/boilerplate/src/app-web/components/ModelSelect.jsx
+/Users/sri/Dev/meme-all/boilerplate/src/app-web/components/ModelSelect.jsx
   88,8:     UR.Publish('MODEL:ALLOW_EDIT');
 ```
-Result of *find replace regex* using `^\s*([0-9]+),([0-9]+):.+Publish\(('.*').*` as the search string and `PUB\t$3\t$1` as replace string (CSV format)
-
+Result of *find replace regex* using `^\s*([0-9]+),([0-9]+):.+Publish\(('.*'),?.*` as the search string and `PUB,$3,$1` as replace string (CSV format)
 ```
-vsls:/boilerplate/src/app-web/boot/SystemInit.jsx
-'WINDOW:SIZE', PUB, 4
-'WINDOW:SIZE', PUB, 9
+/Users/sri/Dev/meme-all/boilerplate/src/app-web/boot/SystemInit.jsx
+PUB,'WINDOW:SIZE',44
+PUB,'WINDOW:SIZE',99
 
-vsls:/boilerplate/src/app-web/components/EvidenceLink.jsx
-'SHOW_EVIDENCE_LINK', PUB, 1
-'SELECTION_CHANGED', PUB, 4
-'REQUEST_SELECT_EVLINK_SOURCE', PUB, 2
+/Users/sri/Dev/meme-all/boilerplate/src/app-web/components/EvidenceLink.jsx
+PUB,'SELECTION_CHANGED',206
+PUB,'REQUEST_SELECT_EVLINK_SOURCE',214
 
-vsls:/boilerplate/src/app-web/components/EvidenceLinkOrig.jsx
-'SELECTION_CHANGED', PUB, 3
-'REQUEST_SELECT_EVLINK_SOURCE', PUB, 1
-'STICKY:OPEN', PUB, 8
-
-vsls:/boilerplate/src/app-web/components/ModelSelect.jsx
-'MODEL:ALLOW_EDIT', PUB, 8
-
+/Users/sri/Dev/meme-all/boilerplate/src/app-web/components/ModelSelect.jsx
+PUB,'MODEL:ALLOW_EDIT',88
 ```
-For Excel copy/paste friendliness: `\t$3\tPUB\t$1`
+For Excel copy/paste friendliness, replace with: `\t$3\tPUB\t$1` and remove the root prefix (here, everything before app-web) for a cleaner look.
 
 
 [^1] Pay attention to search options: case-sensitive, whole word, and regex. 
