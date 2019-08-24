@@ -23,25 +23,6 @@ The examples will be implemented as the simplest possible version for maximum co
 - use a practical **modular approaches** to code organization.
 - provide the steps for **installing the development tools** so you can run the code immediately.
 
-## Installation
-
-This project uses NodeJS, Git, and Visual Studio Code to run Javascript examples from the terminal.
-
-- [Mac installation] walk through
-- [Windows installation] walk through
-- [Linux installation] walk through
-
-Once you have these installed, you'll want to `git clone` this repo into your development directory from a terminal console by executing these commands
-
-```
-cd <your-development-folder>
-git clone https://github.com/daveseah/good-code-examples.git
-cd good-code-examples
-npm ci
-```
-
-This will install the NodeJS prerequisites. **You only need to do this once** on your first clone. Newer version of the repo adds more dependencies; if you see an error complaining about missing node modules after pulling the most recent update, try running the `npm ci` command again.
-
 ## Running the Examples
 
 Each folder in the `source` directory has a `README.md` file which has instructions on running the examples as well as additional trivia.

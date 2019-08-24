@@ -6,7 +6,8 @@
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.5.5",
-    "@babel/plugin-proposal-class-properties": "^7.5.5"
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "parcel": "^1.12.3"
   },
   "babel": {
     "plugins": [
@@ -15,7 +16,11 @@
   },
   "scripts": {
     "clean": "rm -fr ./dist",
-    "start": "npm run clean && npx parcel index.html --open",
+    "dev": "npm run clean && npx parcel index.html --open",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daveseah/good-code-examples.git"
   },
   "author": "Dave.Sri Seah",
   "license": "MIT",

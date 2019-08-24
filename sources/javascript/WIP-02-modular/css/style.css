@@ -1,0 +1,16 @@
+/* normalize css to sane defaults across all browsers */
+@import url("../css/normalize.css");
+
+/* add styles */
+body {
+  padding: 0.5em 1em;
+}
+.container {
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+#codeoutput {
+  font-family: monospace;
+  width: 100%;
+  white-space: pre;
+}

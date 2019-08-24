@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Nuts and Bolts HTML+CSS+JS Template</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body id="home">
+  <h2>Good Code Examples / Javascript</h2>
+  <h1>Example 1: A Simple File-based Website with Javascript and CSS</h1>
+
+  <p>This example can work just by double-clicking or dragging the
+    <code>index.html</code> file into a web browser, or by putting it up on a web
+    server. This is fine for very simple sites that do not require any external
+    resources to be loaded or accessed, as browser security settings prevent it as
+    a safety policy.
+  </p>
+  <p>Notable Features:</p>
+  <ul>
+    <li>The entry point is this file, <code>index.html</code>
+    <li>Loads styles from <code>css/style.css</code> that does a <a href="https://necolas.github.io/normalize.css/"
+        target="_blank">css normalize</a>
+    <li>Loads javascript code from <code>js/main.js</code> at the end of the <code>&lt;body&gt;</code></li>
+  </ul>
+  <h2>Workflow Notes</h2>
+  <p>
+    Typically the designing/development cycle is iterative.:</p>
+  <ul>
+    <li>Drag the <code>index.html</code> file into a web browser</li>
+    <li>Open any of the files in a text editor such as <a href="https://code.visualstudio.com/" target="_blank">Visual
+        Studio Code</a></li>
+    <li><b>Make changes</b> in the text editor, <b>save changes</b> and then <b>refresh the browser</b> to reload the
+      changed files.</li>
+    <li>See if anything happened, then repeat as many times as necessary.</li>
+  </ul>
+  <p>To debug your work, you would:</p>
+  <ul>
+    <li>Open the browser's <strong>Javascript Console</strong> to see errors and messages from your Javascript code</li>
+    <li>Use the browser's <strong>Inspector</strong> to see what CSS styles are being successfully applied</li>
+  </ul>
+  <p>
+    Learning the <b>keyboard shortcuts</b> for common operations saves time:
+  </p>
+  <ul>
+    <li>command-s to save</li>
+    <li>command-option-j to open the javascript console</li>
+    <li>command-r to refresh the browser</li>
+  </ul>
+
+  <h2>Program Output</h2>
+  <p>The gray section below is a <code>&lt;div&gt;</code> that is written-to by Javascript code defined in
+    <code>js/main.js</code>.</p>
+  <div class="container">
+    <div id="codeoutput"></div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
