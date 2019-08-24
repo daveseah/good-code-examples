@@ -1,5 +1,5 @@
 /* normalize css to sane defaults across all browsers */
-@import url("../css/normalize.css");
+@import url("normalize.css");
 
 /* add styles */
 body {
